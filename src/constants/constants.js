@@ -20,29 +20,35 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Global Hot 20",
+    title: "Singular Animated App",
     description:
-      "Global Hot 20 is developed using Reactjs for frontend and django for backend for all the time scraping trending videos from youtube.",
-    image: "/images/globalhot.png",
-    tags: ["React", "Django"],
-    source: "",
-    visit: "https://globalhot20.com/",
+      "Singular Animated App is a simple web application that is developed for gamers with fun of animations.",
+    image: "/images/animated.png",
+    tags: ["React", "Framer Motion", "Css3 animations"],
+    source: "https://github.com/aizaz-react/framermotion.git",
+    visit: "https://framermotion-mu.vercel.app/",
     id: 2,
   },
   {
-    title: "Ethera",
+    title: "NFT Market Landing Page",
     description:
-      "Ethera is developed using React and React Redux and backend developed with django for doctors and patients.",
-    image: "/images/ethera.png",
-    tags: ["React", "Django", "Redux-Saga"],
-    source: "#",
-    visit: "#",
+      "NFT Market Landing Page is a simple landing page page for nft lovers and investors.",
+    image: "/images/nft.png",
+    tags: ["React", "Html5", "CSS3", "SCSS"],
+    source: "https://github.com/aizaz-react/nft.git",
+    visit: "https://nft-sable.vercel.app/",
     id: 3,
   },
 ];
 
 export const TimeLineData = [
   { year: 2016, text: "Started my degree as a software Engineer" },
-  { year: 2020, text: "Finish my degree as a software Engineer with 3.07 cgpa." },
-  { year: 2020, text: "started my first job as a full stack software Engineer" },
+  {
+    year: 2020,
+    text: "Finish my degree as a software Engineer with 3.07 cgpa.",
+  },
+  {
+    year: 2020,
+    text: "started my first job as a full stack software Engineer",
+  },
 ];
